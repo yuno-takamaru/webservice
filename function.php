@@ -400,7 +400,7 @@ function getProductOne($p_id){
     }
 
   } catch (Exception $e) {
-    error_log('エラー発生:' . $e->getMessage());
+    error_log('エラー発生:'.$e->getMessage());
   }
 }
 function getMyProducts($u_id){
